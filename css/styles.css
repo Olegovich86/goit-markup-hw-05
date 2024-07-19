@@ -801,6 +801,10 @@ button {
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 
 .span-privacy {
@@ -809,6 +813,7 @@ button {
 .checkbox-input:checked + .user-privacy span {
   background-color: #404bbf;
   border: none;
+  fill: #f4f4fd;
 }
 
 .span-icon {
