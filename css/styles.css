@@ -588,8 +588,12 @@ button {
   letter-spacing: 0.04em;
   padding-left: 16px;
   border-radius: 4px;
+}
+
+.footer-input::placeholder {
   color: #ffffff;
 }
+
 .footer-btn {
   min-width: 165px;
   height: 40px;
