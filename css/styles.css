@@ -819,6 +819,8 @@ button {
 
 .span-privacy {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .checkbox-input:checked + .user-privacy span {
