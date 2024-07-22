@@ -727,6 +727,7 @@ button {
 .modal-list-wrap:focus-within,
 .textarea-box:focus-within {
   border-color: #4d5ae5;
+  fill: #4d5ae5;
 }
 
 .modal-container:focus-within .modal-input {
