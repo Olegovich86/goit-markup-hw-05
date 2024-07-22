@@ -588,6 +588,7 @@ button {
   letter-spacing: 0.04em;
   padding-left: 16px;
   border-radius: 4px;
+  color: #ffffff;
 }
 
 .footer-input::placeholder {
@@ -693,6 +694,7 @@ button {
 .modal-close-btn:hover .modal-icon-close,
 .modal-close-btn:focus .modal-icon-close {
   fill: #ffffff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-text {
@@ -725,6 +727,7 @@ button {
 .modal-list-wrap:focus-within,
 .textarea-box:focus-within {
   border: 1px solid #4d5ae5;
+  border-color: #4d5ae5;
 }
 
 .modal-container:focus-within .modal-icon {
@@ -739,13 +742,14 @@ button {
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
+  border-color: #4d5ae5;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-icon {
   position: absolute;
-  left: 16px;
   top: 50%;
+  left: 16px;
   transform: translateY(-50%);
   pointer-events: none;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -808,9 +812,13 @@ button {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .span-privacy {
+  display: inline-flex;
 }
 
 .checkbox-input:checked + .user-privacy span {
@@ -845,6 +853,7 @@ button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
 }
 
 .send-button:hover,
