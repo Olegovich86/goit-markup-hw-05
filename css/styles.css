@@ -726,12 +726,12 @@ button {
 
 .modal-list-wrap:focus-within,
 .textarea-box:focus-within {
-  border: 1px solid #4d5ae5;
   border-color: #4d5ae5;
 }
 
-.modal-container:focus-within .modal-icon {
+.modal-container:focus-within .modal-input {
   fill: #4d5ae5;
+  border-color: #4d5ae5;
 }
 
 .modal-input {
